@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include exceleron_app *.css
+recursive-include exceleron_app *.csv
+recursive-include exceleron_app *.html
+recursive-include exceleron_app *.ico
+recursive-include exceleron_app *.js
+recursive-include exceleron_app *.json
+recursive-include exceleron_app *.md
+recursive-include exceleron_app *.png
+recursive-include exceleron_app *.py
+recursive-include exceleron_app *.svg
+recursive-include exceleron_app *.txt
+recursive-exclude exceleron_app *.pyc
