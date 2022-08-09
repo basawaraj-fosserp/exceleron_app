@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 import frappe
 from frappe import _
 from frappe.model.document import Document
-from erpnext.controllers.item_variant import create_variant
 from six import string_types
 import json
 from frappe.utils import flt
